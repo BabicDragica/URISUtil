@@ -15,7 +15,7 @@ namespace URISUtil
             }
             else
             {
-                return new Uri(baseUrl, String.Format("api/{0}/{1}", controllerName, actionName));
+                 return new Uri(baseUrl, String.Format("api/{0}/{1}", controllerName, actionName));
             }
         }
     }
